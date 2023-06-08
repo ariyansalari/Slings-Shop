@@ -1,0 +1,29 @@
+.wrapper{
+    position: relative;
+}
+.wrapper .list-item{
+    width: 100%;
+    padding: 10px;
+border-radius: 8px;
+position: absolute;
+background-color:rgba(128, 128, 128, 0.589);
+transform: scaleY(0);
+transition: .6s ease all;
+transform-origin: top;
+z-index: 999;
+
+
+}
+.wrapper .list-item ul li{
+   font-size: 20px;
+   margin-bottom: 15px;
+   font-weight: 600;
+    border-bottom: 2px solid rgb(231, 145, 17)
+}
+.wrapper .list-item ul li:hover{
+    color: gold;
+}
+.wrapper:hover .list-item{
+
+transform: scaleY(1);
+}
